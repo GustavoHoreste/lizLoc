@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Contato</title>
+</head>
+<body>
+    <div class="navbar">
+        <nav>
+          <ul>
+            <li class="logo"><a href="../paginaHome/index.html"><img class="logo-img" src="../Imagens/logo_lisloc.png" alt="Logo"></a></li>
+            <li><a href="../paginaHome/index.html">Home</a></li>
+            <li><a href="../paginaProdutos/index.html">Ferramentas</a></li>
+            <li><a href="../PaginaSobre/index.html">Sobre</a></li>
+            <li><a href="../paginaContato/index.html">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+
+
+      <header>
+        <h1>Entre em Contato</h1>
+      </header>
+    
+      <div class="container">
+        <div class="contact-info">
+          <h2>Informações de Contato</h2>
+          <p>Número de telefone: <span id="phone-number">61 99190-2157</span></p>
+          <p>E-mail: <span id="email">lisLoc@gmail.com</span></p>
+        </div>
+    
+        <form class="contact-form" action="enviar.php" method="POST">
+          <h2>Envie uma Mensagem</h2>
+          <label for="name">Nome:</label>
+          <input type="text" id="name" name="name" required>
+    
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" required>
+    
+          <label for="message">Mensagem:</label>
+          <textarea id="message" name="message" required></textarea>
+    
+          <input type="submit" value="Enviar">
+        </form>
+      </div>
+    
+      <footer>
+        <p>&copy; 2023 Lis Loc - Aluguel de Ferramentas para Construção. Todos os direitos reservados a Gustavo Horestee - Hurr.com.</p>
+      </footer>
+
+</body>
+</html>

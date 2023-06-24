@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+  background-color: #ff5d27;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-img {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar li {
+  margin: 0 10px;
+}
+
+.navbar a {
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  border-radius: 13px;
+  padding: 10px 16px;
+}
+
+.navbar a:hover {
+  background-color: #ffffff;
+  color: #ff5d27;
+}
+
+.h2S {
+  text-align: center;
+  padding: 20px;
+}
+
+
+.services {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.service {
+  width: calc(33.333% - 20px);
+  padding: 20px;
+  border-radius: 13px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.service:hover {
+  transform: translateY(-5px);
+}
+
+.service img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 13px;
+}
+
+.service h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.service p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #777777;
+}
+
+.testimonials {
+  background-color: #f7f7f7;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.testimonials h2 {
+  margin-bottom: 40px;
+}
+
+.testimonial {
+  display: inline-block;
+  width: calc(33.333% - 20px);
+  padding: 20px;
+  border-radius: 13px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.testimonial:hover {
+  transform: translateY(-5px);
+}
+
+.testimonial img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.testimonial h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.testimonial p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #777777;
+}
+
+.testimonial p.occupation {
+  font-size: 16px;
+  font-style: italic;
+  color: #777777;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+}
